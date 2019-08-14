@@ -110,4 +110,9 @@ class CueBlocks_Robots_Adminhtml_RobotsController extends Mage_Adminhtml_Control
 			endif; 
 		endif;
 	}
+
+	protected function _isAllowed()
+	{
+		return Mage::getSingleton('admin/session')->isAllowed('admin/cueblocks/robots');
+	}
 }

@@ -1,13 +1,13 @@
 {
     "name": "OpenMageModuleFostering/robots_txt",
     "type": "magento-module",
-    "license": "EULA",
+    "license": "OSL-v3.0",
     "homepage": "",
     "description": "Makes it easy to edit Robots.txt - you can access Robots.txt file directly from Magento Admin interface",
     "authors": [
     {
-        "name": "CueBlocks",
-        "email": "suneet@cueblocks.com"
+        "name": "CueBlocks.com",
+        "email": "pancham@cueblocks.com"
     }
 ],
     "suggest": {
