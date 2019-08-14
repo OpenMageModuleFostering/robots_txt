@@ -16,4 +16,5 @@ class CueBlocks_Robots_Block_Adminhtml_Robots extends Mage_Adminhtml_Block_Widge
 		$this->_addButtonLabel = Mage::helper('robots')->__('Add Robots Options');
 		parent::__construct();
 	}
+	
 }

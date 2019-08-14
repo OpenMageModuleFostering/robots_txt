@@ -32,7 +32,7 @@
                 <children>
                     <cueblocks>
                         <title>CueBlocks Extension</title>
-                        <children>
+						<children>
                             <robots>
                                 <title>Robots Txt</title>
                                 <children>
@@ -43,6 +43,17 @@
                             </robots>
                         </children>
                     </cueblocks>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <robotstxt translate="title" module="robots">
+                                        <title>Robots.txt</title>
+                                    </robotstxt>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
                 </children>
             </admin>
         </resources>   

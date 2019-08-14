@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <package>
     <name>robots_txt</name>
-    <version>1.7.2</version>
+    <version>1.8.0</version>
     <stability>stable</stability>
-    <license>OSL v3.0</license>
+    <license uri="http://store.cueblocks.com/LICENSE_STORE.txt">EULA</license>
     <channel>community</channel>
     <extends/>
     <summary>Makes it easy to edit Robots.txt - you can access Robots.txt file directly from Magento Admin interface</summary>
     <description>Makes it easy to edit Robots.txt - you can access Robots.txt file directly from Magento Admin interface</description>
-    <notes>Makes it easy to edit Robots.txt - you can access Robots.txt file directly from Magento Admin interface</notes>
-    <authors><author><name>CueBlocks.com</name><user>CueBlocks</user><email>pancham@cueblocks.com</email></author></authors>
-    <date>2012-11-07</date>
-    <time>12:23:13</time>
-    <contents><target name="mageetc"><dir name="modules"><file name="CueBlocks_Robots.xml" hash="70e95a838a261031bcb97326117ca1fe"/></dir></target><target name="magecommunity"><dir name="CueBlocks"><dir name="Robots"><dir name="Block"><dir name="Adminhtml"><dir name="Robots"><dir name="Edit"><file name="Tabs.php" hash="ecc231e63a0f854d8baa6b5bdc4d3b05"/></dir><file name="Edit.php" hash="00a3081303cd7de46112b5a7ec2738e4"/></dir><file name="Robots.php" hash="cddb7ca64431cd0d0ba03d0298816974"/></dir></dir><dir name="Helper"><file name="Data.php" hash="bf21a8f4891b2ca8ac5c4fad3899f3ef"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="RobotsController.php" hash="131658f5654f2a24d4038f908487ed6f"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="a05ae708a5341b0162868de5909ae9ec"/><file name="config.xml" hash="7bd70d2073244224683bbb9024a12359"/></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="robots.xml" hash="2f81bd14161e4637a6af1251b4e405bb"/></dir><dir name="template"><dir name="robots"><file name="robotsadd.phtml" hash="a8cc076c0bb2727feef3d610f8be4f73"/></dir></dir></dir></dir></dir></target></contents>
+    <notes>Support for multiple websites </notes>
+    <authors><author><name>CueBlocks</name><user>Suneet</user><email>suneet@cueblocks.com</email></author></authors>
+    <date>2015-08-06</date>
+    <time>06:14:12</time>
+    <contents><target name="magecommunity"><dir name="CueBlocks"><dir name="Robots"><dir name="Block"><dir name="Adminhtml"><dir name="Robots"><dir name="Edit"><file name="Tabs.php" hash="ecc231e63a0f854d8baa6b5bdc4d3b05"/></dir><file name="Edit.php" hash="f3f5604f14631a60f4e5782c9fcdd380"/></dir><file name="Robots.php" hash="fb221b06bd34817f7a23ecdc162f8840"/></dir></dir><dir name="Helper"><file name="Data.php" hash="bf21a8f4891b2ca8ac5c4fad3899f3ef"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="RobotsController.php" hash="01821e477e2d275e641014a1f85c604d"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="7a53c1967d25e010193f991599245c48"/><file name="config.xml" hash="dc766a844b0e3c3ef14a4ae8fbb687dc"/><file name="system.xml" hash="7d86eedaf2297bb0fce35e730a84f213"/></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="robots.xml" hash="88fb1eb75ce44d1ed175d820cadc0f86"/></dir><dir name="template"><dir name="robots"><file name="robotsadd.phtml" hash="ce61f6fe5e1c3ee836c6206d8263f6d8"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="CueBlocks_Robots.xml" hash="70e95a838a261031bcb97326117ca1fe"/></dir></target></contents>
     <compatible/>
-    <dependencies><required><php><min>5.0.2</min><max>6.0.0</max></php></required></dependencies>
+    <dependencies><required><php><min>4.0.0</min><max>6.0.0</max></php></required></dependencies>
 </package>

@@ -11,30 +11,10 @@
 <config>
     <modules>
         <CueBlocks_Robots>
-            <version>1.6.0</version>
+            <version>1.8.0</version>
         </CueBlocks_Robots>
     </modules> 
     <global>
-        <resources>
-            <robots_setup>
-                <setup>
-                    <module>CueBlocks_Robots</module>
-                </setup>
-                <connection>
-                    <use>core_setup</use>
-                </connection>
-            </robots_setup>
-            <robots_write>
-                <connection>
-                    <use>core_write</use>
-                </connection>
-            </robots_write>
-            <robots_read>
-                <connection>
-                    <use>core_read</use>
-                </connection>
-            </robots_read>
-        </resources>
         <blocks>
             <robots>
                 <class>CueBlocks_Robots_Block</class>
@@ -57,4 +37,11 @@
             </robots>
         </routers>
     </admin>  
+     <default>
+        <robotstxt>
+            <general>
+                <path_map>/</path_map>
+            </general>
+        </robotstxt>
+     </default>        
 </config>
